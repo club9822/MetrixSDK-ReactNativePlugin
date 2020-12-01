@@ -19,19 +19,7 @@ android {
         }
     }
 }
-
-
-rootProject.allprojects {
-    repositories {
-        maven {
-            url "https://dl.bintray.com/metrixorg/maven"
-            name "metrixRepository"
-        }
-    }
-}
-
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    implementation 'ir.metrix:reactnative:0.15.5'
 
 }
