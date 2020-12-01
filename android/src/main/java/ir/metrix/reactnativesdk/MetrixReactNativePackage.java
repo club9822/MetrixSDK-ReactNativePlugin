@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
-import ir.metrix.sdk.MetrixReactNativeModule;
+//import ir.metrix.sdk.MetrixReactNativeModule;
 
 public class MetrixReactNativePackage implements ReactPackage {
 
@@ -23,7 +23,7 @@ public class MetrixReactNativePackage implements ReactPackage {
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
-        modules.add(new MetrixReactNativeModule(reactContext));
+        //modules.add(new MetrixReactNativeModule(reactContext));
         return modules;
     }
 
